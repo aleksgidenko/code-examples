@@ -6,7 +6,7 @@ int main(void) {
   FILE *fp;
 
   // open file
-  fp = fopen("./file.txt", "r");
+  fp = fopen("./shakespeare.txt", "r");
   if (fp == NULL) {
     perror("Failed to open file");
     return(-1);

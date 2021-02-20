@@ -1,5 +1,5 @@
-#include "stdio.h"
-#include "string.h"
+#include <stdio.h>
+#include <string.h>
 
 char* extractWords(char* text) {
   for (int i=0; i<strlen(text); i++) {
@@ -8,6 +8,7 @@ char* extractWords(char* text) {
 }
 
 int main(void) {
+  // shakespeare excerpt from the winters tale
   char* text = "Nine changes of the watery star hath been\n\
 The shepherd's note since we have left our throne\n\
 Without a burthen: time as long again\n\
